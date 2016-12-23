@@ -1,0 +1,24 @@
+void setup(){
+  size(2000,600);
+}
+  int a = 80;
+  int b = 60;
+  
+void draw(){
+  noStroke();
+  if (mouseX>1 && mouseY<300){
+    background (#076B8F);
+    fill(#3A71FF);
+    ellipse(b+1,a+10,500,500);
+  } else {
+    background (#FFD407);
+    fill(#FFFF07);
+    ellipse(a*5,b+200,60,60);
+  }
+  if (mouseX>=600 && mouseY>300){
+     background(#E459E5);
+     fill(#8E378F);
+     ellipse(a+30,b+60,100,100);
+   } else {
+   }
+}
